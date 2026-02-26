@@ -1,0 +1,64 @@
+# =========================
+# Python bytecode / cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Local runtime data
+# =========================
+.multi_runtime/
+multi_config.json
+multi_config.local.json
+*.session
+*.token
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+*.log.*
+
+# =========================
+# Local proxy / exports
+# =========================
+proxies.txt
+proxies.local.txt
+url_list_*.txt
+pixiv_follow_urls_*.txt
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+*.whl
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.vs/
+Thumbs.db
+Desktop.ini
+.DS_Store
+

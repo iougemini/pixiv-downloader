@@ -1,0 +1,16 @@
+[project]
+name = "pixiv-follow-url-indexer"
+version = "1.0.0"
+description = "Web UI service for indexing Pixiv follow artwork URLs with multi-account and proxy pool support."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "Flask>=3.0.0",
+    "requests>=2.31.0",
+    "PySocks>=1.7.1",
+    "colorama>=0.4.6",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
